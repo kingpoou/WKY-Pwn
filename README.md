@@ -42,9 +42,10 @@ S805 类似架构设备等·····
 该固件经过测试可以完美激活以及成功后自动关机。
 烧录工具以及教程还需各位自行寻找ing···
 
-
+<br>
 
 <br>
+
 #改地区
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 #更换源
