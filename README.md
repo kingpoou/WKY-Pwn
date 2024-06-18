@@ -49,11 +49,13 @@ S805 类似架构设备等·····
 
 #改地区
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
 #更换源
 bash <(curl -sSL https://linuxmirrors.cn/main.sh) 
 
 #更新
 sudo apt update
+
 #安装git
 sudo apt install git -y
 
