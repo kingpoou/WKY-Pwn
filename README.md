@@ -45,7 +45,7 @@ S805 类似架构设备等·····
 <br>
 
 <br>
-```sh
+
 
 #改地区
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
@@ -61,7 +61,7 @@ sudo apt install git -y
 sudo rm -r WKY-Pwn
 
 #下载pwn
-git clone https://github.com/kingpoou/WKY-Pwn
+git clone https://github.com/allenfever/WKY-Pwn
 
 #拷贝pwn到自启动
 sudo mkdir /boot/firmware/
@@ -73,7 +73,7 @@ cd /boot/firmware/PPPwn
 sudo chmod 777 *
 sudo bash install_ch.sh
 <br>
-```
+
 ```sh
 sudo apt update
 sudo apt install git -y
